@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./demo.css" />
+    <script src="./data.js"></script>
+  </head>
+  <body>
+    <header class="intro">
+      <h1>JavaScript Projects</h1>
+      <p>
+        Here is the listings of my all JavaScript Projects from small to big
+        scale, that I have worked on throughout my career and still going on to
+        develop and add to this listing.
+      </p>
+      <p>
+        This list includes building logic, UI components, amazing games, etc.
+      </p>
+      <p>Although I have served it live for you to have a look on it.</p>
+      <p>Below are the links to my JavaScript Projects.</p>
+
+      <div class="action">
+        <a
+          href="https://jimi-chhatrala.github.io/"
+          title="Back to Portfolio"
+          class="btn back"
+          target="_blank"
+          >Back to Portfolio</a
+        >
+      </div>
+    </header>
+    <div id="box"></div>
+    <script>
+      var html = '<table id="myTable">';
+      html += '<tr><th>Id</th><th>Name</th><th>Link</th></tr>';
+      for (var i = 0; i < rows.length; i++) {
+        html += '<tr>';
+        html += '<td>' + rows[i].id + '</td>';
+        html += '<td>' + rows[i].name + '</td>';
+        html +=
+          '<td><a href="' +
+          rows[i].link +
+          '" target="_blank" class="project__link">Click</a></td>';
+
+        html += '</tr>';
+      }
+      html += '</table>';
+      document.getElementById('box').innerHTML = html;
+    </script>
+
+    <!-- <div id="box"></div>
+    <script>
+      var html = '<ol>';
+      for (var i = 0; i < rows.length; i++) {
+        html += '<li>';
+        html += '<a href="' + rows[i].link;
+        html += '" target="_blank" class="project__link">' + rows[i].name;
+        html += '</a>';
+        html += '</li>';
+      }
+      html += '</ol>';
+      document.getElementById('box').innerHTML = html;
+    </script> -->
+    <script src="./script.js"></script>
+  </body>
+</html>
