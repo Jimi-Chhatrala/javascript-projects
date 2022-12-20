@@ -24,4 +24,9 @@ const rows = [
     name: 'Guess the Number',
     link: 'https://jimi-chhatrala.github.io/javascript-projects/Guess the Number',
   },
+  {
+    id: 6,
+    name: 'UI Modal',
+    link: 'https://jimi-chhatrala.github.io/javascript-projects/UI Modal',
+  },
 ];
