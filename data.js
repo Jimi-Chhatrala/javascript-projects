@@ -29,4 +29,9 @@ const rows = [
     name: 'UI Modal',
     link: 'https://jimi-chhatrala.github.io/javascript-projects/UI Modal',
   },
+  {
+    id: 7,
+    name: 'Pig Game',
+    link: 'https://jimi-chhatrala.github.io/javascript-projects/Pig Game',
+  },
 ];
