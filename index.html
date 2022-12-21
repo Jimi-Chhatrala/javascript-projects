@@ -36,14 +36,16 @@
     <div id="box"></div>
     <script>
       var html = '<table id="myTable">';
-      html += '<tr><th>Id</th><th>Name</th><th>Link</th></tr>';
+      html +=
+        '<tr><th>Id</th><th>Title</th><th>Category</th><th>Link</th></tr>';
       for (var i = 0; i < rows.length; i++) {
         html += '<tr>';
         html += '<td>' + rows[i].id + '</td>';
-        html += '<td>' + rows[i].name + '</td>';
+        html += '<td>' + rows[i].title + '</td>';
+        html += '<td>' + rows[i].category + '</td>';
         html +=
           '<td><a href="' +
-          rows[i].link +
+          rows[i].demolink +
           '" target="_blank" class="project__link">Click</a></td>';
 
         html += '</tr>';

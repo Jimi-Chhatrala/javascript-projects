@@ -1,37 +1,88 @@
 const rows = [
   {
     id: 1,
-    name: 'Expanding Cards',
-    link: 'https://jimi-chhatrala.github.io/javascript-projects/Expanding Cards/',
+    image: 'expanding-cards',
+    title: 'Expanding Cards',
+    category: 'UI Design',
+    description: '',
+    techstack: ['HTML5', 'CSS3', 'JAVASCRIPT', 'BOOTSTRAP', 'FIREBASE'],
+    demolink:
+      'https://jimi-chhatrala.github.io/javascript-projects/Expanding Cards/',
   },
   {
     id: 2,
-    name: 'Hamburger Menu',
-    link: 'https://jimi-chhatrala.github.io/javascript-projects/Hamburger Menu/',
+    image: 'hamburger-menu',
+    title: 'Hamburger Menu',
+    category: 'UI Design',
+    description: '',
+    techstack: ['HTML5', 'CSS3', 'JAVASCRIPT', 'BOOTSTRAP', 'FIREBASE'],
+    demolink:
+      'https://jimi-chhatrala.github.io/javascript-projects/Hamburger Menu/',
   },
   {
     id: 3,
-    name: 'Progress Steps',
-    link: 'https://jimi-chhatrala.github.io/javascript-projects/Progress Steps/',
+    image: 'progress-steps',
+    title: 'Progress Steps',
+    category: 'UI Design',
+    description: '',
+    techstack: ['HTML5', 'CSS3', 'JAVASCRIPT', 'BOOTSTRAP', 'FIREBASE'],
+    demolink:
+      'https://jimi-chhatrala.github.io/javascript-projects/Progress Steps/',
   },
   {
     id: 4,
-    name: 'Movie Seat Booking DOM and Local Storage',
-    link: 'https://jimi-chhatrala.github.io/javascript-projects/Movie Seat Booking DOM and Local Storage',
+    image: 'movie-seat-booking',
+    title: 'Movie Seat Booking DOM and Local Storage',
+    category: 'Web App',
+    description: '',
+    techstack: ['HTML5', 'CSS3', 'JAVASCRIPT', 'BOOTSTRAP', 'FIREBASE'],
+    demolink:
+      'https://jimi-chhatrala.github.io/javascript-projects/Movie Seat Booking DOM and Local Storage',
   },
   {
     id: 5,
-    name: 'Guess the Number',
-    link: 'https://jimi-chhatrala.github.io/javascript-projects/Guess the Number',
+    image: 'guess-the-number',
+    title: 'Guess the Number',
+    category: 'Game',
+    description: '',
+    techstack: ['HTML5', 'CSS3', 'JAVASCRIPT', 'BOOTSTRAP', 'FIREBASE'],
+    demolink:
+      'https://jimi-chhatrala.github.io/javascript-projects/Guess the Number',
   },
   {
     id: 6,
-    name: 'UI Modal',
-    link: 'https://jimi-chhatrala.github.io/javascript-projects/UI Modal',
+    image: 'modal',
+    title: 'UI Modal',
+    category: 'UI Modal',
+    description: '',
+    techstack: ['HTML5', 'CSS3', 'JAVASCRIPT', 'BOOTSTRAP', 'FIREBASE'],
+    demolink: 'https://jimi-chhatrala.github.io/javascript-projects/UI Modal',
   },
   {
     id: 7,
-    name: 'Pig Game',
-    link: 'https://jimi-chhatrala.github.io/javascript-projects/Pig Game',
+    image: 'pig-game',
+    title: 'Pig Game',
+    category: 'Game',
+    description: '',
+    techstack: ['HTML5', 'CSS3', 'JAVASCRIPT', 'BOOTSTRAP', 'FIREBASE'],
+    demolink: 'https://jimi-chhatrala.github.io/javascript-projects/Pig Game',
+  },
+];
+
+const projectsNav = [
+  {
+    name: 'All',
+  },
+  {
+    name: 'Website',
+  },
+  {
+    name: 'Web App',
+  },
+  {
+    name: 'Game',
+  },
+  {
+    name: 'UI Design',
   },
 ];
