@@ -47,7 +47,7 @@ const rows = [
     description: '',
     techstack: ['HTML5', 'CSS3', 'JAVASCRIPT', 'BOOTSTRAP', 'FIREBASE'],
     demolink:
-      'https://jimi-chhatrala.github.io/javascript-projects/Guess The Number',
+      'https://jimi-chhatrala.github.io/javascript-projects/Guess the number',
   },
   {
     id: 6,
