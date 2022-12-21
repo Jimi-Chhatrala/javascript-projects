@@ -42,12 +42,12 @@ const rows = [
   {
     id: 5,
     image: 'guess-the-number',
-    title: 'Guess the Number',
+    title: 'Guess The Number',
     category: 'Game',
     description: '',
     techstack: ['HTML5', 'CSS3', 'JAVASCRIPT', 'BOOTSTRAP', 'FIREBASE'],
     demolink:
-      'https://jimi-chhatrala.github.io/javascript-projects/Guess the Number',
+      'https://jimi-chhatrala.github.io/javascript-projects/Guess The Number',
   },
   {
     id: 6,
