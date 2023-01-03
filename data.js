@@ -67,6 +67,16 @@ const rows = [
     techstack: ['HTML5', 'CSS3', 'JAVASCRIPT', 'BOOTSTRAP', 'FIREBASE'],
     demolink: 'https://jimi-chhatrala.github.io/javascript-projects/Pig Game',
   },
+  {
+    id: 8,
+    image: 'filter-category-gallery',
+    title: 'Filter Category Gallery',
+    category: 'UI Design',
+    description: '',
+    techstack: ['HTML5', 'CSS3', 'JAVASCRIPT'],
+    demolink:
+      'https://jimi-chhatrala.github.io/javascript-projects/Filter Category Gallery',
+  },
 ];
 
 const projectsNav = [
