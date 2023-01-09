@@ -77,6 +77,16 @@ const rows = [
     demolink:
       'https://jimi-chhatrala.github.io/javascript-projects/Filter Category Gallery',
   },
+  {
+    id: 9,
+    image: 'input-border-label-animation',
+    title: 'Input Border Label Animation',
+    category: 'UI Design',
+    description: '',
+    techstack: ['HTML5', 'CSS3'],
+    demolink:
+      'https://jimi-chhatrala.github.io/javascript-projects/Input Border Label Animation',
+  },
 ];
 
 const projectsNav = [
