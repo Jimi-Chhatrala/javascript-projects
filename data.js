@@ -87,6 +87,16 @@ const rows = [
     demolink:
       'https://jimi-chhatrala.github.io/javascript-projects/Input Border Label Animation',
   },
+  {
+    id: 10,
+    image: 'search-functionality-on-json-data',
+    title: 'Search Functionality On JSON Data',
+    category: 'UI Design',
+    description: '',
+    techstack: ['HTML5', 'CSS3', 'JAVASCRIPT'],
+    demolink:
+      'https://jimi-chhatrala.github.io/javascript-projects/Search Functionality On JSON Data',
+  },
 ];
 
 const projectsNav = [
