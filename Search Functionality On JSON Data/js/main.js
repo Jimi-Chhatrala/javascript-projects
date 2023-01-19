@@ -26,14 +26,17 @@ const searchStates = (searchText) => {
 
 const outputHtml = (matches) => {
   if (matches.length > 0) {
-    const html = matches
+    let html = "<ul>";
+     html += matches
       .map(
-        (match) => `
+        (match) => `<li>
     <div class="card card-body mb-1"><h4>${match.name} (${match.abbr}) <span class="text-primary">${match.capital}</span></h4>
     <small>Lat: ${match.lat} / Long: ${match.long}</small></div>
-    `
+    </li>`
       )
       .join("");
+      html+= "</ul>";
+
     matchList.innerHTML = html;
   }
 };

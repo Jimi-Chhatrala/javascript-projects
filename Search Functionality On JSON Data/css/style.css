@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.search-container {
+  position: relative;
+}
+
+ul {
+  margin-top: 8px;
+  /* position: absolute; */
+  /* top: 115px; */
+  /* bottom: 2px; */
+  /* top: 15px; */
+  /* left: 15px; */
+  /* right: 15px; */
+  overflow: scroll;
+  /* margin: 0; */
+  /* padding: 0; */
+  max-height: 330px;
+  /* border: 2px solid #ccc; */
+
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+
+  /* // Again, this is where the magic happens */
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  margin-bottom: 0;
+}
+
+.search-list-container {
+  border: 2px solid skyblue;
+  border-radius: 15px;
+  padding: 5px;
+}
