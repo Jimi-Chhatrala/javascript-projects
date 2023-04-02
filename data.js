@@ -97,6 +97,16 @@ const rows = [
     demolink:
       'https://jimi-chhatrala.github.io/javascript-projects/Search Functionality On JSON Data',
   },
+  {
+    id: 11,
+    image: 'copy-text-to-clipboard',
+    title: 'Copy Text To Clipboard',
+    category: 'UI Design',
+    description: '',
+    techstack: ['HTML5', 'CSS3', 'JAVASCRIPT'],
+    demolink:
+      'https://jimi-chhatrala.github.io/javascript-projects/Copy Text To Clipboard',
+  },
 ];
 
 const projectsNav = [
