@@ -107,6 +107,16 @@ const rows = [
     demolink:
       'https://jimi-chhatrala.github.io/javascript-projects/Copy Text To Clipboard',
   },
+  {
+    id: 12,
+    image: 'tabs-using-html-and-css',
+    title: 'Tabs Using HTML And CSS',
+    category: 'UI Design',
+    description: '',
+    techstack: ['HTML5', 'CSS3'],
+    demolink:
+      'https://jimi-chhatrala.github.io/javascript-projects/Tabs Using HTML And CSS',
+  },
 ];
 
 const projectsNav = [
